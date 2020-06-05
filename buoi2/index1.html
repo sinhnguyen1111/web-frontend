@@ -57,7 +57,7 @@
 
 </form>
 -->
-<table border="2px" width="500px" cellspacing="0px">
+<table border="0" width="500px" cellspacing="0px">
 	<tr align="center" valign="center" bgcolor="tomato">
 		<td colspan="2">ZENT GROUP</td>
 	</tr>
@@ -91,23 +91,41 @@
 		
 	</tr>
 	<tr height="30px" >
-		<td></td>
-		<td></td>
+		<td><label for="">Ngày sinh</label></td>
+		<td>
+			<input type="date">
+		</td>
 		
 	</tr>
 	<tr height="30px" >
-		<td></td>
+		<td><label for="">Giới tính</label></td>
+		<td>
+			<input type="radio" name="gender">Nam
+			<input type="radio" name="gender">Nữ
+			<input type="radio" name="gender">Khác
+
+		</td>
 	
 	</tr>
 	<tr height="30px" >
-		<td></td>
+		<td><label for="">Ngôn ngữ</label></td>
+		<td>
+			<input type="checkbox">Tiếng Việt
+			<input type="checkbox">Tiếng Anh
+
+		</td>
 	
 	</tr>
 	<tr height="30px" >
-		<td></td>
+		<td><label for="">Mô tả</label></td>
+		<td>
+			<textarea name="" id="" cols="30" rows="10">
+				Giới thiệu bản thân
+			</textarea>
+		</td>
 		
 	</tr>
-	<tr height="30px" >
+	<tr height="30px" bgcolor="tomato" align="center"  valign="center">
 		<td colspan="2">
 			<input type="button" value="Submit">
 			<input type="button" value="Reset">
