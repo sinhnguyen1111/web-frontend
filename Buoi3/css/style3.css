@@ -1,0 +1,130 @@
+*{
+	font-size: 12px;
+	font-family: arial;
+}
+body{
+	background-image: url('../images/tuyet.jpg');
+	width: 800px;
+}
+
+.container{
+	background: white;
+	margin: 0px auto;
+	border: 2px solid white;	
+}
+
+.head ul{
+	margin: 0px;
+	padding: 0px;
+}
+.head{
+	background-color: #424242;
+	height:30px;
+	width:795px;
+	line-height: 30px;
+}
+.head ul li a{
+	text-decoration: none;
+	color: #ff4500;
+	display: inline;
+	height:29px;
+	padding: 0px 10px 0px 10px;
+}
+.head ul li{
+	border-right: 2px groove black;
+	list-style-type: none;
+	display: inline;	
+}
+
+.ctn{
+	width:800px;
+	height:800px;
+	margin-top: 10px;
+}
+.content-1{
+	border:1px solid #ff9966;
+	background-color: #ff9966;
+	border-radius: 10px;
+	padding:5px;
+	color: white;
+}
+.main-bar{
+	background-image: url('../images/main_bar_left.gif');
+	height:25px;
+	line-height: 25px;
+	padding-left: 5px;
+}
+.main-bar-right{
+	background-image: url('../images/main_bar_right.gif');
+	height:25px;
+	line-height: 25px;
+	text-align: right;
+	padding-right: 5px;
+
+}
+.text{
+	text-align: right;
+	color: orange;
+	line-height: 1px;
+}
+.text-a{
+	color: orange;
+	line-height: 1px;
+}
+
+.my-div{
+	background-image: url('../images/menu_bar.gif');
+	height:20px;
+	text-align: center;
+	color: white;
+	line-height: 20px;
+}
+.left-1 a{
+	text-decoration: none;
+
+}
+.left-1 a:hover{
+	color:red;
+}
+.left-1{
+	border:2px solid gray;
+
+}
+.my-div~p{
+	padding-left: 5px;
+}
+.left{
+	height:30px;
+	width:148px;
+	clear:right;
+	float:left;
+}
+.content{
+	
+	width:480px;
+	height:200px;
+	float:left;
+	padding-left:10px;
+	padding-right: 10px;
+}
+.right{
+	
+	width:148px;
+	height:200px;
+	float:left;
+}
+#right-1{
+	border: 2px solid gray;
+}
+.online{
+	text-align: center;
+}
+.footer{
+	width:99.8%;
+	height:40px;
+	line-height: 40px;
+	background-color: #424242;
+	clear: both;
+	text-align: center;
+	vertical-align: middle;
+}

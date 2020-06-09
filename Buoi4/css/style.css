@@ -1,0 +1,60 @@
+/*body{
+	height:2000px;
+}
+h1 {
+	position: fixed;	
+}
+.container{
+	border: 5px green solid ;
+	padding:30px 50px;
+
+	
+}
+.content{
+	width:200px;
+	height:100px;
+	background-color: yellow;
+	padding:20px 50px 20px 50px;
+	overflow: scroll;
+}
+.container::before{
+	content:"Xin chào ";
+	color:blue;
+}
+.container::after{
+	content:" Xin chào";
+	color:yellow;
+	font-size: 30px;
+}
+.content::before{
+	content: "zent";
+	color:blue;
+	padding-right: 50px;
+	font-weight: bold;
+}
+.my-div{
+	width: 100px;
+	height:100px;
+	background-color: black;
+	position: relative;
+	top:20px;
+}
+.sub{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color:blue;
+	z-index: 150;
+
+}
+.text{
+	position: relative;
+	width:100px;
+	height: 100px;
+	background-color: red;
+	z-index: 100;
+}
+/*last child*/*/
+ul{
+	list-style: none;
+}

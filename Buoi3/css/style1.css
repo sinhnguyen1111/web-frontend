@@ -1,0 +1,19 @@
+div.my-phone{
+	border:1px solid gray;
+	width:120px;
+	display: inline-block;
+	text-align: center;
+	margin:3px;
+}
+
+.bill:hover{
+	color:red !important;
+	font-weight: bold;
+}
+.my-phone:hover{
+	border-color: #F7BE81;
+}
+.my-phone>p:hover{
+	color:orange;
+	font-weight: bold;
+}
