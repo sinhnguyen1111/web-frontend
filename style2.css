@@ -1,0 +1,28 @@
+
+
+.container{
+	display: block;
+}
+.check{
+	display:inline-block;
+	width:200px;
+}
+.support{
+	display: inline-block;
+	width:200px;
+	font-weight: bold;
+}
+.check:hover{
+	color:red;
+}
+.support:hover{
+	color:red;
+	
+}
+#my-idea:hover{
+	text-decoration: underline;
+	color:blue;
+}
+#col2{
+	margin-top: 20px;
+}
