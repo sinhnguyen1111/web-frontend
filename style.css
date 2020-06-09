@@ -1,0 +1,34 @@
+pre{
+			color: green;
+			font-size: 30px;
+		}
+		
+#hai-duong{
+	color: green;
+}
+.my-text{
+	color:blue;
+}
+#text-1{
+	color:red;
+}
+#my-name:hover {
+	
+	color:blue;
+}
+#text-underline{
+	text-decoration: underline;
+	text-indent: 100px;
+	}
+#text-throught{
+	text-decoration: line-through;
+	text-indent: 100px;
+	}
+#text-overline{
+	text-decoration: overline;
+	text-indent: 100px;
+	}
+ul>li{
+	width: 100px;
+	display: inline-block;
+}
