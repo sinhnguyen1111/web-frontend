@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			background-color: #E6E6E6;
+		}
+		.container{
+			width: 35%;
+			margin: 0 auto;
+			background-color:#F7BE81;
+		}
+		table{
+			width: 100%;
+			padding: 20px;
+		}
+		.error{
+			color:red;
+		}
+		form{
+			/*width: 70%;*/
+			border: 2px solid black;
+			border-radius: 4px;
+			box-shadow: 0 0 10px gray;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+		<form action="" name="frm" onsubmit=" return true validation()">
+			<table>
+				<tr class="item">
+					<td>Họ và tên</td>
+					<td>
+						<input type="text" placeholder="Nhập họ tên.." name="name" id="fullname"><br>
+						<i class="error" id="nameError"></i>
+					</td>
+				</tr>
+				<tr class="item">
+					<td>Giới tính</td>
+					<td>
+						<input type="radio" name="gender">Nam
+						<input type="radio" name="gender">Nữ
+					</td>
+				</tr>
+				<tr class="item">
+					<td>Email</td>
+					<td>
+						<input type="email" placeholder="Nhập email.." name="email" id="email"><br>
+						<i class="error" id="emailError"></i>
+					</td>
+				</tr>
+				<tr class="item">
+					<td>Số điện thoại</td>
+					<td>
+						<input type="text" placeholder="Nhập số điện thoại.." id="numberPhone" name="number"><br>
+						 <i class="error" id="phoneError"></i>
+					</td>
+				</tr>
+				<tr class="item">
+					<td>Mật khẩu</td>
+					<td>
+						<input type="password" name="password" ><br>
+						<i class="error" id="passwordError"></i>
+					</td>
+
+				</tr>
+				<tr class="item">
+					<td>Xác nhận mật khẩu</td>
+					<td>
+						<input type="password" name="password2"><br>
+						<i class="error" id="password2Error"></i>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Đăng kí">
+						<input type="submit" value="Xóa trắng">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+</script>
+</body>
+<script src="../js/bai1.js"></script>
+</html>
